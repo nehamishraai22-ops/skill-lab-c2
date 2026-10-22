@@ -1,20 +1,23 @@
 #include<stdio.h>
 int main()
 {
-    int x=5;
-    switch(x)
+    int day;
+    printf("enter day 1-3:");
+    scanf("%d",&day);
+   // printf("%d",day);
+    switch(day)
     {
     case 1:
-    printf("hello");
+    printf("monday\n");
+    break;
+    case 2:
+    printf("tuesday\n");
     break;
     case 3:
-    printf("bye");
-    break;
-    case 5:
-    printf("stay");
+    printf("wednesday\n");
     break;
     default:
-    printf("no");
+    printf("invalid days");
     return 0;
     }
 
